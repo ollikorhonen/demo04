@@ -8,6 +8,10 @@ namespace T1
 {
     class Elevator
     {
-        public  { get; set; } 
+        private readonly int maxFloor = 5;
+        private readonly int minFloor = 1;
+
+        public int Floor;
+
     }
 }
