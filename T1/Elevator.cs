@@ -8,6 +8,6 @@ namespace T1
 {
     class Elevator
     {
-        public int Liike { get; set; } 
+        public  { get; set; } 
     }
 }
