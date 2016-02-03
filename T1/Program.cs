@@ -10,6 +10,10 @@ namespace T1
     {
         static void Main(string[] args)
         {
+            Elevator elevator = new Elevator();
+            elevator.Floor = 3;
+            Console.WriteLine("Hissi on kerroksessa: " + elevator.Floor);
+            Console.ReadLine();
         }
     }
 }
