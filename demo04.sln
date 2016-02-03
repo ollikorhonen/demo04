@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "caraplication", "caraplication\caraplication.csproj", "{FA62D408-6980-43A0-95C3-DDE3456A9761}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "personaplication", "personaplication\personaplication.csproj", "{5EA975E2-1FA0-4647-B86A-80A110B1B3DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T1", "T1\T1.csproj", "{DA689E85-8191-46A5-ABF7-CA7D6F507787}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA62D408-6980-43A0-95C3-DDE3456A9761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA62D408-6980-43A0-95C3-DDE3456A9761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA62D408-6980-43A0-95C3-DDE3456A9761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA62D408-6980-43A0-95C3-DDE3456A9761}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EA975E2-1FA0-4647-B86A-80A110B1B3DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EA975E2-1FA0-4647-B86A-80A110B1B3DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EA975E2-1FA0-4647-B86A-80A110B1B3DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EA975E2-1FA0-4647-B86A-80A110B1B3DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA689E85-8191-46A5-ABF7-CA7D6F507787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA689E85-8191-46A5-ABF7-CA7D6F507787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA689E85-8191-46A5-ABF7-CA7D6F507787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA689E85-8191-46A5-ABF7-CA7D6F507787}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
