@@ -24,10 +24,10 @@ namespace caraplication
             }
             set
             {
-                if (value < 0)
+                if (value < 1)
                 {
                     Console.WriteLine("too small height");
-                    height = 0;
+                    height = 1;
                 }
                 else if (value > maxHeight){
                     Console.WriteLine("too hight");

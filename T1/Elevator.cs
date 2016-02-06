@@ -11,7 +11,34 @@ namespace T1
         private readonly int maxFloor = 5;
         private readonly int minFloor = 1;
 
-        public int Floor;
+        private int floor;
+
+        public int Floor {
+
+            get
+            {
+                return floor;
+            }
+            set
+            {
+                if (value < minFloor)
+                {
+                    Console.WriteLine("Semmoista kerrosta ei ole olemassa");
+                    floor = 1;
+                }
+                else if (value > maxFloor)
+                {
+                    Console.WriteLine("Semmosta kerrosta ei ole olemassa");
+                    floor = 5;
+                }
+                else
+                {
+                    floor = value;
+                }
+            }
+        }
+
+        
 
     }
 }

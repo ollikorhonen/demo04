@@ -13,7 +13,7 @@ namespace caraplication
             //create one car object 
             car car = new car();
             car.Speed = 100;
-            car.Height = 2;
+            car.Height = 0;
             Console.WriteLine("Speed is {0} km/h\nHeight is {1} m", car.Speed, car.Height);
             Console.ReadLine();
 

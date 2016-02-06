@@ -10,10 +10,22 @@ namespace T1
     {
         static void Main(string[] args)
         {
-            Elevator elevator = new Elevator();
-            elevator.Floor = 3;
-            Console.WriteLine("Hissi on kerroksessa: " + elevator.Floor);
-            Console.ReadLine();
+            int luku = 1;
+
+            Console.WriteLine("Voit lopettaa painamalla 20");
+            Console.Write("Anna kerros mihin haluat menna (1-5) : ");
+            luku = int.Parse(Console.ReadLine());
+
+            do {
+                Elevator elevator = new Elevator();
+                elevator.Floor = luku;
+                Console.WriteLine("Hissi on kerroksessa: " + elevator.Floor);
+
+                Console.WriteLine("\nVoit lopettaa painamalla 20");
+                Console.Write("Anna kerros mihin haluat menna (1-5) : ");
+                luku = int.Parse(Console.ReadLine());
+
+            } while (luku != 20);
         }
     }
 }
